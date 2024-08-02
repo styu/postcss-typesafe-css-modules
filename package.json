@@ -1,0 +1,54 @@
+{
+  "name": "postcss-typesafe-css-modules",
+  "version": "0.0.0",
+  "description": "PostCSS plugin for generating typesafe CSS modules",
+  "packageManager": "yarn@4.3.1",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "modules",
+    "css modules",
+    "components",
+    "typescript",
+    "typesafe"
+  ],
+  "exports": {
+    ".": {
+      "require": {
+        "types": "./dist/types/index.d.ts",
+        "default": "./dist/main/index.js"
+      }
+    }
+  },
+  "scripts": {
+    "build": "run-p 'build:**'",
+    "build:transpile": "swc ./src --config-file .swcrc --out-dir dist/main --strip-leading-paths",
+    "build:typecheck": "tsc -p tsconfig.json",
+    "lint": "prettier --check 'src/**/*.ts'",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "lines-and-columns": "^2.0.4",
+    "postcss-modules": "^6.0.0",
+    "source-map": "^0.7.4"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.4.0",
+    "@swc/core": "^1.7.5",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^20.10.5",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.40",
+    "prettier": "^3.3.3",
+    "typescript": "~5.5.4"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/styu/postcss-typesafe-css-modules.git"
+  }
+}
