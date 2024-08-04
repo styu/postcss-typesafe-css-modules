@@ -13,6 +13,8 @@
     "typescript",
     "typesafe"
   ],
+  "main": "./dist/main/index.js",
+  "types": "./dist/types/index.d.ts",
   "exports": {
     ".": {
       "require": {
@@ -51,5 +53,17 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/styu/postcss-typesafe-css-modules.git"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ]
 }
