@@ -1,0 +1,11 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@3.0.0/schema.json",
+  "commit": false,
+  "updateInternalDependencies": "patch",
+  "linked": [],
+  "access": "restricted",
+  "baseBranch": "main",
+  "ignore": [],
+  "changelog": "@changesets/cli/changelog",
+  "fixed": [["postcss-typesafe-css-modules"]]
+}
