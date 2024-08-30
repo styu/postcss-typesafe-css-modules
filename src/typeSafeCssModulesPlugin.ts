@@ -1,4 +1,4 @@
-import type { Plugin, PluginCreator } from "postcss";
+import type { PluginCreator } from "postcss";
 import { SourceNode } from "source-map";
 import { Stylesheet } from "./Stylesheet";
 import path from "node:path";
