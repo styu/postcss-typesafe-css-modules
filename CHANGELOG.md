@@ -1,5 +1,11 @@
 # postcss-typesafe-css-modules
 
+## 0.1.1
+
+### Patch Changes
+
+-   9dec023: Correctly export as esm
+
 ## 0.1.0
 
 ### Major Changes
