@@ -1,17 +1,19 @@
-import type { Plugin } from "postcss";
+import type { PluginCreator } from "postcss";
 import { SourceNode } from "source-map";
 import { Stylesheet } from "./Stylesheet";
 import path from "node:path";
 import fs from "fs-extra";
 import postcssModules from "postcss-modules";
 
-export function typeSafeCssModulesPlugin(
-    opts: {
-        generateScopedName?:
-            | string
-            | ((name: string, filename: string, css: string) => string);
-    } = {},
-): Plugin {
+interface TypeSafeCssModulesPluginOptions {
+    generateScopedName?:
+        | string
+        | ((name: string, filename: string, css: string) => string);
+}
+
+export const typeSafeCssModulesPlugin: PluginCreator<
+    TypeSafeCssModulesPluginOptions
+> = (opts = {}) => {
     return postcssModules({
         generateScopedName: opts.generateScopedName,
         localsConvention: (className: string) => className,
@@ -114,7 +116,8 @@ export function typeSafeCssModulesPlugin(
             ]);
         },
     });
-}
+};
+typeSafeCssModulesPlugin.postcss = true;
 
 function toCamelCase(str: string) {
     return str.replace(/-./g, x => x[1].toUpperCase());
