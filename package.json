@@ -1,6 +1,6 @@
 {
   "name": "postcss-typesafe-css-modules",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "PostCSS plugin for generating typesafe CSS modules",
   "packageManager": "yarn@4.3.1",
   "keywords": [
