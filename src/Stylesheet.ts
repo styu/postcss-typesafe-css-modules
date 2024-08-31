@@ -2,7 +2,7 @@
  * (c) Copyright 2024 Walker Burgin. All rights reserved.
  */
 
-import { LinesAndColumns, SourceLocation } from "lines-and-columns";
+import { LinesAndColumns, type SourceLocation } from "lines-and-columns";
 
 export class Stylesheet {
     private index: Map<string, SourceLocation | undefined>;
