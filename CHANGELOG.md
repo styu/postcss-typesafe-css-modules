@@ -1,5 +1,11 @@
 # postcss-typesafe-css-modules
 
+## 0.1.2
+
+### Patch Changes
+
+-   2e67758: Fix imports to use `.js` for use in ESM projects
+
 ## 0.1.1
 
 ### Patch Changes
