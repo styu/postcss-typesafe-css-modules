@@ -54,7 +54,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/styu/postcss-typesafe-css-modules.git"
+    "url": "git+https://github.com/styu/postcss-typesafe-css-modules.git"
   },
   "publishConfig": {
     "access": "public"
