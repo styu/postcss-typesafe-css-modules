@@ -1,3 +1,3 @@
-import { typeSafeCssModulesPlugin } from "./typeSafeCssModulesPlugin";
+import { typeSafeCssModulesPlugin } from "./typeSafeCssModulesPlugin.js";
 
 export default typeSafeCssModulesPlugin;

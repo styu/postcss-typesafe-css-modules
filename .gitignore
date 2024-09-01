@@ -12,3 +12,5 @@
 
 # Build outputs
 dist/
+node_modules
+.swc
