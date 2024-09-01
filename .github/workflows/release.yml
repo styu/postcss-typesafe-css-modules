@@ -24,8 +24,5 @@ jobs:
         run: yarn build
       - name: Publish to NPM
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          npm config set _authToken=$NPM_TOKEN
-          npm publish
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish
