@@ -1,5 +1,11 @@
 # postcss-typesafe-css-modules
 
+## 0.2.0
+
+### Minor Changes
+
+-   06782fb: Output mjs files and drop `"type": "module"` from package.json for correct ESM support
+
 ## 0.1.2
 
 ### Patch Changes
