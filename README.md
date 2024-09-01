@@ -4,7 +4,7 @@ A [PostCSS](https://postcss.org/) plugin for type safe [CSS modules](https://git
 
 ## Overview
 
-This plugin takes CSS modules one step further by generating `.js` and `.d.ts` files for each CSS module file. This means that CSS class names imported from a CSS module file will be typechecked so that developers can't reference non-existent classes.
+This plugin takes CSS modules one step further by generating `.js` and `.d.ts` files for each CSS module file. This means that CSS class names imported from a CSS module file will be typechecked so that developers can't reference non-existent classes. Source maps are also generated so that you can navigate from a CSS module class name directly to the Sass file.
 
 For example, if you have the following CSS module file:
 
@@ -40,4 +40,65 @@ export const Header: React.FC = () => {
 
 ## Usage
 
-// Todo
+Add this plugin to your build tool, along with the [SCSS parser](https://github.com/postcss/postcss-scss).
+
+```
+npm install postcss postcss-scss postcss-typesafe-css-modules --save-dev
+```
+
+### PostCSS
+
+In the following example, we are compiling Sass via PostCSS as well:
+
+```js
+// postcss.config.mjs
+import scssPlugin from "@csstools/postcss-sass";
+import scss from "postcss-scss";
+import cssModulesPlugin from "postcss-typesafe-css-modules";
+
+export default {
+    syntax: scss,
+    plugins: [
+        scssPlugin(),
+        cssModulesPlugin,
+    ],
+};
+```
+
+Alternatively, in CommonJS:
+
+```js
+// postcss.config.js
+module.exports = {
+    syntax: require("postcss-scss"),
+    plugins: [
+        require("@csstools/postcss-sass")(),
+        require("postcss-typesafe-css-modules").default,
+    ],
+};
+```
+
+For each CSS module file, the following files will get written to disk in the output directory (`--dir` if using the [postcss-cli](https://github.com/postcss/postcss-cli)):
+
+```
+# In this example, build/postcss is the output directory for PostCSS
+src/
+  hello.module.scss
+build/
+  postcss/
+    hello.module.scss.js
+    hello.module.scss.js.map
+    hello.module.scss.d.ts
+    hello.module.scss.d.ts
+```
+
+## Options
+
+Currently this plugin has one option, forwarded to postcss-modules. See [Generating scoped names](https://www.npmjs.com/package/postcss-modules#generating-scoped-names) for how to configure this option:
+
+```js
+import cssModulesPlugin from "postcss-typesafe-css-modules";
+cssModulesPlugin.default({
+    generateScopedName: /* Your desired scoped name behavior */
+})
+```
