@@ -1,8 +1,22 @@
 {
+  "$schema": "https://swc.rs/schema.json",
   "jsc": {
     "parser": {
       "syntax": "typescript",
       "jsx": true
+    },
+    "experimental": {
+      "plugins": [
+        [
+          "@swc/plugin-transform-imports",
+          {
+            "^(.*?)(\\.js)$": {
+              "skipDefaultConversion": true,
+              "transform": "{{matches.[1]}}.mjs"
+            }
+          }
+        ]
+      ]
     }
   },
   "module": {
