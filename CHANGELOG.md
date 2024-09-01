@@ -1,5 +1,11 @@
 # postcss-typesafe-css-modules
 
+## 0.3.0
+
+### Minor Changes
+
+-   7c42e0a: Transform ESM imports to use .mjs in relative files
+
 ## 0.2.1
 
 ### Patch Changes
