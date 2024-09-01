@@ -8,8 +8,7 @@
     "moduleResolution": "node",
     "outDir": "dist/types",
     "strict": true,
-    "target": "esnext",
-    "verbatimModuleSyntax": true
+    "target": "esnext"
   },
   "include": ["src/**/*"]
 }
