@@ -14,19 +14,18 @@
     "typesafe"
   ],
   "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
+  "module": "./dist/esm/index.mjs",
   "types": "./dist/types/index.d.ts",
-  "type": "module",
   "exports": {
     ".": {
       "types": "./dist/types/index.d.ts",
-      "import": "./dist/esm/index.js",
+      "import": "./dist/esm/index.mjs",
       "default": "./dist/cjs/index.js"
     }
   },
   "scripts": {
     "build": "run-p 'build:**'",
-    "build:transpile-esm": "swc ./src --config-file esm.swcrc --out-dir dist/esm --strip-leading-paths",
+    "build:transpile-esm": "swc ./src --config-file esm.swcrc --out-dir dist/esm --strip-leading-paths  --out-file-extension mjs",
     "build:transpile-cjs": "swc ./src --config-file cjs.swcrc --out-dir dist/cjs --strip-leading-paths",
     "build:typecheck": "tsc -p tsconfig.json",
     "lint": "prettier --check 'src/**/*.ts'",
