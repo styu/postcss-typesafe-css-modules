@@ -1,6 +1,6 @@
 import type { PluginCreator } from "postcss";
 import { SourceNode } from "source-map";
-import { Stylesheet } from "./Stylesheet.js";
+import { Stylesheet } from "./Stylesheet";
 import path from "node:path";
 import fs from "fs-extra";
 import postcssModules from "postcss-modules";
