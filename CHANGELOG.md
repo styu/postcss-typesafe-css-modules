@@ -1,5 +1,11 @@
 # postcss-typesafe-css-modules
 
+## 0.2.1
+
+### Patch Changes
+
+-   3ef44c6: Turn off verbatimModuleSyntax to fix ESM usage
+
 ## 0.2.0
 
 ### Minor Changes
