@@ -14,7 +14,7 @@ interface TypeSafeCssModulesPluginOptions {
 export const typeSafeCssModulesPlugin: PluginCreator<
     TypeSafeCssModulesPluginOptions
 > = (opts = {}) => {
-    return postcssModules({
+    const cssModules = postcssModules({
         generateScopedName: opts.generateScopedName,
         localsConvention: (className: string) => className,
         getJSON: async (from, exportTokens, to) => {
@@ -116,9 +116,31 @@ export const typeSafeCssModulesPlugin: PluginCreator<
             ]);
         },
     });
+    const previousOnceExitFunction = cssModules.OnceExit;
+    cssModules.OnceExit = (root, helper) => {
+        // First do whatever postcss-modules may have configured to prevent dropping behavior
+        previousOnceExitFunction?.(root, helper);
+        // Now rename the file as a last action
+        const originalOutputFile = helper.result.opts.to;
+        if (originalOutputFile?.endsWith(".module.css")) {
+            // We need to output `.css` since the generated .js file will import it
+            // This is strictly more correct, since after compiling the sass module it is no longer a CSS module
+            helper.result.opts.to = replaceModuleExtension(originalOutputFile);
+        }
+    };
+    return cssModules;
 };
 typeSafeCssModulesPlugin.postcss = true;
 
 function toCamelCase(str: string) {
     return str.replace(/-./g, x => x[1].toUpperCase());
+}
+
+function replaceModuleExtension(filePath: string) {
+    const dirname = path.dirname(filePath);
+    const originalFileName = path.basename(filePath);
+    // Output with a leading underscore in the hopes of preventing conflicts with non-module files
+    // The hope is that Sass treats .scss files with leading underscores as partials and won't compile them to CSS,
+    // so the chances of conflicts should be low.
+    return `${dirname}/_${originalFileName.replace(".module.css", ".css")}`;
 }
