@@ -38,14 +38,9 @@ export const typeSafeCssModulesPlugin: PluginCreator<
 
             const sourceFile = path.relative(path.dirname(to), from);
 
-            // Replace .module.css with .css, since at this point it is no longer a CSS module
-            // This prevents consumers from potentially double-compiling CSS modules (looking at you NextJS)
-            const outputFileWithoutModuleExtension = replaceModuleExtension(
-                path.basename(to),
-            );
             // Generate the JavaScript file
             const js = new SourceNode(null, null, sourceFile, [
-                `import "./${outputFileWithoutModuleExtension}";\n\n`,
+                `import "./${path.basename(to)}";\n\n`,
                 ...classes.flatMap(el => [
                     new SourceNode(null, null, sourceFile, `export const `),
                     new SourceNode(
@@ -141,6 +136,11 @@ function toCamelCase(str: string) {
     return str.replace(/-./g, x => x[1].toUpperCase());
 }
 
-function replaceModuleExtension(path: string) {
-    return path.replace(/\.module\.css$/, ".css");
+function replaceModuleExtension(filePath: string) {
+    const dirname = path.dirname(filePath);
+    const originalFileName = path.basename(filePath);
+    // Output with a leading underscore in the hopes of preventing conflicts with non-module files
+    // The hope is that Sass treats .scss files with leading underscores as partials and won't compile them to CSS,
+    // so the chances of conflicts should be low.
+    return `${dirname}/_${originalFileName.replace(".module.css", ".css")}`;
 }
