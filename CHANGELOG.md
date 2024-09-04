@@ -1,5 +1,15 @@
 # postcss-typesafe-css-modules
 
+## 0.4.0
+
+### Minor Changes
+
+-   1700e55: Output .css instead of .module.css to prevent potential consumers from trying to double compile CSS modules
+
+### Patch Changes
+
+-   22c63e2: Add usage section to README
+
 ## 0.3.0
 
 ### Minor Changes
