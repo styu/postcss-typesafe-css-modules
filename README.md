@@ -6,10 +6,10 @@ A [PostCSS](https://postcss.org/) plugin for type safe [CSS modules](https://git
 
 This plugin takes CSS modules one step further by generating `.js` and `.d.ts` files for each CSS module file. This means that CSS class names imported from a CSS module file will be typechecked so that developers can't reference non-existent classes. Source maps are also generated so that you can navigate from a CSS module class name directly to the Sass file.
 
-For example, if you have the following CSS module file:
+For example, if you have the following SCSS module file:
 
 ```css
-// header.module.css
+// header.module.scss
 .header {
     font-size: 1.5rem;
 }
@@ -19,7 +19,7 @@ In your corresponding TypeScript file, the following would work:
 
 ```tsx
 import React from "react";
-import * as css from "./header.module.css";
+import * as css from "./header.module.scss";
 
 export const Header: React.FC = () => {
     return <header className={css.header}>Hello</header>;
@@ -30,7 +30,7 @@ However, referencing a non-existent class will fail to compile:
 
 ```tsx
 import React from "react";
-import * as css from "./header.module.css";
+import * as css from "./header.module.scss";
 
 export const Header: React.FC = () => {
     // Will fail to compile
@@ -78,15 +78,17 @@ module.exports = {
 };
 ```
 
-For each CSS module file, the following files will get written to disk in the output directory (`--dir` if using the [postcss-cli](https://github.com/postcss/postcss-cli)):
+For each SCSS module file, the following files will get written to disk in the output directory (`--dir` if using the [postcss-cli](https://github.com/postcss/postcss-cli)):
 
 ```
 # In this example, build/postcss is the output directory for PostCSS
 src/
   hello.module.scss
+  hello.tsx                   # Contains the import for header.module.scss
 build/
   postcss/
-    hello.module.scss.js
+    _hello.module.css         # Compiled CSS that is imported by hello.module.scss.js
+    hello.module.scss.js      # File actually imported by hello.tsx
     hello.module.scss.js.map
     hello.module.scss.d.ts
     hello.module.scss.d.ts
