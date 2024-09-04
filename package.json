@@ -25,12 +25,14 @@
   },
   "scripts": {
     "build": "run-p 'build:**'",
-    "build:transpile-esm": "swc ./src --config-file esm.swcrc --out-dir dist/esm --strip-leading-paths  --out-file-extension mjs",
+    "build:transpile-esm": "swc ./src --config-file esm.swcrc --out-dir dist/esm --strip-leading-paths --out-file-extension mjs",
     "build:transpile-cjs": "swc ./src --config-file cjs.swcrc --out-dir dist/cjs --strip-leading-paths",
     "build:typecheck": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist",
     "lint": "prettier --check 'src/**/*.ts'",
     "lint-fix": "prettier --write 'src/**/*.ts'",
-    "clean": "rm -rf dist"
+    "watch-esm": "swc ./src -w -s --config-file esm.swcrc --out-dir dist/esm --strip-leading-paths --out-file-extension mjs",
+    "watch-cjs": "swc ./src -w -s --config-file cjs.swcrc --out-dir dist/cjs --strip-leading-paths"
   },
   "dependencies": {
     "fs-extra": "^11.2.0",
@@ -45,6 +47,7 @@
     "@swc/plugin-transform-imports": "^3.0.1",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^20.10.5",
+    "chokidar": "^3.6.0",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.40",
     "prettier": "^3.3.3",

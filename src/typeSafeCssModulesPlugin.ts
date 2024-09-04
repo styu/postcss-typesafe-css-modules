@@ -14,7 +14,7 @@ interface TypeSafeCssModulesPluginOptions {
 export const typeSafeCssModulesPlugin: PluginCreator<
     TypeSafeCssModulesPluginOptions
 > = (opts = {}) => {
-    return postcssModules({
+    const cssModules = postcssModules({
         generateScopedName: opts.generateScopedName,
         localsConvention: (className: string) => className,
         getJSON: async (from, exportTokens, to) => {
@@ -38,9 +38,14 @@ export const typeSafeCssModulesPlugin: PluginCreator<
 
             const sourceFile = path.relative(path.dirname(to), from);
 
+            // Replace .module.css with .css, since at this point it is no longer a CSS module
+            // This prevents consumers from potentially double-compiling CSS modules (looking at you NextJS)
+            const outputFileWithoutModuleExtension = replaceModuleExtension(
+                path.basename(to),
+            );
             // Generate the JavaScript file
             const js = new SourceNode(null, null, sourceFile, [
-                `import "./${path.basename(to)}";\n\n`,
+                `import "./${outputFileWithoutModuleExtension}";\n\n`,
                 ...classes.flatMap(el => [
                     new SourceNode(null, null, sourceFile, `export const `),
                     new SourceNode(
@@ -116,9 +121,26 @@ export const typeSafeCssModulesPlugin: PluginCreator<
             ]);
         },
     });
+    const previousOnceExitFunction = cssModules.OnceExit;
+    cssModules.OnceExit = (root, helper) => {
+        // First do whatever postcss-modules may have configured to prevent dropping behavior
+        previousOnceExitFunction?.(root, helper);
+        // Now rename the file as a last action
+        const originalOutputFile = helper.result.opts.to;
+        if (originalOutputFile?.endsWith(".module.css")) {
+            // We need to output `.css` since the generated .js file will import it
+            // This is strictly more correct, since after compiling the sass module it is no longer a CSS module
+            helper.result.opts.to = replaceModuleExtension(originalOutputFile);
+        }
+    };
+    return cssModules;
 };
 typeSafeCssModulesPlugin.postcss = true;
 
 function toCamelCase(str: string) {
     return str.replace(/-./g, x => x[1].toUpperCase());
+}
+
+function replaceModuleExtension(path: string) {
+    return path.replace(/\.module\.css$/, ".css");
 }
