@@ -1,5 +1,11 @@
 # postcss-typesafe-css-modules
 
+## 1.0.0
+
+### Minor Changes
+
+-   bd5bd2d: Support variables and values exported via `:export`
+
 ## 0.4.0
 
 ### Minor Changes
