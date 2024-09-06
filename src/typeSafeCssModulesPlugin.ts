@@ -27,13 +27,25 @@ export const typeSafeCssModulesPlugin: PluginCreator<
             // Index the stylesheet so that we can lookup lines & columns
             const stylesheet = new Stylesheet(await fs.readFile(from, "utf8"));
 
-            const classes = [...Object.entries(exportTokens)].map(
-                ([localClassName, scopedClassName]) => ({
-                    localClassName,
-                    scopedClassName,
-                    variableName: toCamelCase(localClassName),
-                    location: stylesheet.findClass(localClassName),
-                }),
+            const variables = [...Object.entries(exportTokens)].map(
+                ([tokenName, tokenValue]) => {
+                    // postcss-modules automatically picks the last declared name to use in exportTokens
+                    // In a scenario where an exported variable and a class name shares the same name,
+                    // this can be unexpected so we manually check for conflicts and throw in this scenario
+                    const classNameLocation = stylesheet.findClass(tokenName);
+                    const variableLocation = stylesheet.findVariable(tokenName);
+                    if (classNameLocation != null && variableLocation != null) {
+                        throw new Error(
+                            `The class name ".${tokenName}" conflicts with an exported variable name with the same name\n    at ${from}:${variableLocation.line}:${variableLocation.column}`,
+                        );
+                    }
+                    return {
+                        localVariableName: tokenName,
+                        value: tokenValue,
+                        variableName: toCamelCase(tokenName),
+                        location: classNameLocation ?? variableLocation,
+                    };
+                },
             );
 
             const sourceFile = path.relative(path.dirname(to), from);
@@ -41,23 +53,23 @@ export const typeSafeCssModulesPlugin: PluginCreator<
             // Generate the JavaScript file
             const js = new SourceNode(null, null, sourceFile, [
                 `import "./${path.basename(to)}";\n\n`,
-                ...classes.flatMap(el => [
+                ...variables.flatMap(el => [
                     new SourceNode(null, null, sourceFile, `export const `),
                     new SourceNode(
                         el.location?.line ?? null,
                         el.location?.column ?? null,
                         sourceFile,
-                        `${el.variableName} = "${el.scopedClassName}";\n`,
+                        `${el.variableName} = "${el.value}";\n`,
                     ),
                 ]),
-                `export default { ${classes
+                `export default { ${variables
                     .map(el => el.variableName)
                     .join(", ")} };\n`,
             ]).toStringWithSourceMap();
 
             // Generate the TypeScript .d.ts file
             const dts = new SourceNode(null, null, sourceFile, [
-                ...classes.flatMap(el => {
+                ...variables.flatMap(el => {
                     return [
                         new SourceNode(
                             null,
@@ -76,7 +88,7 @@ export const typeSafeCssModulesPlugin: PluginCreator<
                 "\n",
                 `declare const `,
                 new SourceNode(1, 0, sourceFile, `__defaultExports: {\n`),
-                ...classes.flatMap(el => [
+                ...variables.flatMap(el => [
                     ` `,
                     new SourceNode(
                         el.location?.line ?? null,

@@ -10,6 +10,12 @@ For example, if you have the following SCSS module file:
 
 ```css
 // header.module.scss
+$page-width: 850px;
+
+:export {
+    pageWidth: $page-width;
+}
+
 .header {
     font-size: 1.5rem;
 }
@@ -22,6 +28,7 @@ import React from "react";
 import * as css from "./header.module.scss";
 
 export const Header: React.FC = () => {
+    const width = css.pageWidth; // "850px"
     return <header className={css.header}>Hello</header>;
 };
 ```
@@ -36,6 +43,22 @@ export const Header: React.FC = () => {
     // Will fail to compile
     return <header className={css.nonExistent}>Hello</header>;
 };
+```
+
+Note that if there is a naming conflict between an exported variable (via `:export`) and a class name, this plugin will throw to prevent surprising behavior:
+
+```css
+// header.module.scss
+$header-width: 850px;
+
+:export {
+    // Will cause an error
+    header: $header-width;
+}
+
+.header {
+    font-size: 1.5rem;
+}
 ```
 
 ## Usage
@@ -58,10 +81,7 @@ import cssModulesPlugin from "postcss-typesafe-css-modules";
 
 export default {
     syntax: scss,
-    plugins: [
-        scssPlugin(),
-        cssModulesPlugin,
-    ],
+    plugins: [scssPlugin(), cssModulesPlugin],
 };
 ```
 
