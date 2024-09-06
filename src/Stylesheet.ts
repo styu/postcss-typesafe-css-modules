@@ -28,13 +28,12 @@ export class Stylesheet {
         if (variableExports == null || variableExports.length < 2) {
             this.variablesIndex = new Map();
         } else {
-            // We're looking in within the string extracted from between `:export {}`, so we calculate
-            // the offset in the original file to calculate the correct line and column numbers later
+            const [variableExportsMatch, exportedVariables] = variableExports;
             const offset =
                 variableExports.index! +
-                variableExports[0].indexOf(variableExports[1]);
+                variableExportsMatch.indexOf(exportedVariables);
             this.variablesIndex = new Map(
-                [...variableExports[1].matchAll(/(?<variableName>[\w-]+)\s*:/g)]
+                [...exportedVariables.matchAll(/(?<variableName>[\w-]+)\s*:/g)]
                     .filter(match => match.index != null)
                     .map(match => {
                         const location =
