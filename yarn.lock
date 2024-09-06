@@ -532,11 +532,11 @@ __metadata:
   linkType: hard
 
 "@swc/plugin-transform-imports@npm:^3.0.1":
-  version: 3.0.1
-  resolution: "@swc/plugin-transform-imports@npm:3.0.1"
+  version: 3.0.2
+  resolution: "@swc/plugin-transform-imports@npm:3.0.2"
   dependencies:
     "@swc/counter": "npm:^0.1.3"
-  checksum: 10c0/04b381a532dc1f9997886e1bf93a373e89efd4853da3171d1e7c1c583e1e44dfa414e6ac573d0f8fa4bbaba55b6e840e101b348610532b234b369c3a7f18af54
+  checksum: 10c0/90ad73ac292f239fa2ab554f2f66b84a7fc741994ba50b3e7f6977f14aa529f7864b772b7b9cc51cdee52652653a6fd3dbe00847c314c3a4a69b9ad15d5d621d
   languageName: node
   linkType: hard
 
