@@ -27,7 +27,7 @@ export const typeSafeCssModulesPlugin: PluginCreator<
             // Index the stylesheet so that we can lookup lines & columns
             const stylesheet = new Stylesheet(await fs.readFile(from, "utf8"));
 
-            const variables = [...Object.entries(exportTokens)].map(
+            const cssModuleExports = [...Object.entries(exportTokens)].map(
                 ([tokenName, tokenValue]) => {
                     // postcss-modules automatically picks the last declared name to use in exportTokens
                     // In a scenario where an exported variable and a class name shares the same name,
@@ -53,7 +53,7 @@ export const typeSafeCssModulesPlugin: PluginCreator<
             // Generate the JavaScript file
             const js = new SourceNode(null, null, sourceFile, [
                 `import "./${path.basename(to)}";\n\n`,
-                ...variables.flatMap(el => [
+                ...cssModuleExports.flatMap(el => [
                     new SourceNode(null, null, sourceFile, `export const `),
                     new SourceNode(
                         el.location?.line ?? null,
@@ -62,14 +62,14 @@ export const typeSafeCssModulesPlugin: PluginCreator<
                         `${el.variableName} = "${el.value}";\n`,
                     ),
                 ]),
-                `export default { ${variables
+                `export default { ${cssModuleExports
                     .map(el => el.variableName)
                     .join(", ")} };\n`,
             ]).toStringWithSourceMap();
 
             // Generate the TypeScript .d.ts file
             const dts = new SourceNode(null, null, sourceFile, [
-                ...variables.flatMap(el => {
+                ...cssModuleExports.flatMap(el => {
                     return [
                         new SourceNode(
                             null,
@@ -88,7 +88,7 @@ export const typeSafeCssModulesPlugin: PluginCreator<
                 "\n",
                 `declare const `,
                 new SourceNode(1, 0, sourceFile, `__defaultExports: {\n`),
-                ...variables.flatMap(el => [
+                ...cssModuleExports.flatMap(el => [
                     ` `,
                     new SourceNode(
                         el.location?.line ?? null,

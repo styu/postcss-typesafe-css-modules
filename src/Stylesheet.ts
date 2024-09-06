@@ -24,29 +24,22 @@ export class Stylesheet {
         );
 
         // To make sure we don't catch Sass variable declartions, we only look between :export {}
-        const variableExports = source.match(/:export\s*{\s*([^}]+)}/);
-        if (variableExports == null || variableExports.length < 2) {
-            this.variablesIndex = new Map();
-        } else {
-            const [variableExportsMatch, exportedVariables] = variableExports;
-            const offset =
-                variableExports.index! +
-                variableExportsMatch.indexOf(exportedVariables);
-            this.variablesIndex = new Map(
-                [...exportedVariables.matchAll(/(?<variableName>[\w-]+)\s*:/g)]
-                    .filter(match => match.index != null)
-                    .map(match => {
-                        const location =
-                            stylesheet.locationForIndex(
-                                match.index! + offset,
-                            ) ?? undefined;
-                        if (location != null) {
-                            location.line = location.line + 1;
-                        }
-                        return [match.groups?.variableName!, location] as const;
-                    }),
-            );
-        }
+        this.variablesIndex = new Map(
+            [
+                ...source.matchAll(
+                    /(?<=:export\s*{[^}]*)(?<key>[^\s:}]+):\s*(?<value>.*?);(?=.*})/gs,
+                ),
+            ]
+                .filter(match => match.index != null)
+                .map(match => {
+                    const location =
+                        stylesheet.locationForIndex(match.index!) ?? undefined;
+                    if (location != null) {
+                        location.line = location.line + 1;
+                    }
+                    return [match.groups?.variableName!, location] as const;
+                }),
+        );
     }
 
     public findClass(
