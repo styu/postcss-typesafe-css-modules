@@ -107,7 +107,7 @@ src/
   hello.tsx                   # Contains the import for header.module.scss
 build/
   postcss/
-    _hello.module.css         # Compiled CSS that is imported by hello.module.scss.js
+    _hello.css                # Compiled CSS that is imported by hello.module.scss.js
     hello.module.scss.js      # File actually imported by hello.tsx
     hello.module.scss.js.map
     hello.module.scss.d.ts
