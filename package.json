@@ -33,8 +33,8 @@
     "clean": "rm -rf dist",
     "lint": "prettier --check 'src/**/*.ts'",
     "lint-fix": "prettier --write 'src/**/*.ts'",
-    "watch:cjs": "run build:cjs --watch",
-    "watch:esm": "run build:esm --watch"
+    "watch-cjs": "run build:cjs --watch",
+    "watch-esm": "run build:esm --watch"
   },
   "dependencies": {
     "fs-extra": "^11.2.0",
