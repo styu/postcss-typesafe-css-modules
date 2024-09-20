@@ -13,26 +13,28 @@
     "typescript",
     "typesafe"
   ],
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.mjs",
-  "types": "./dist/types/index.d.ts",
+  "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/types/index.d.ts",
-      "import": "./dist/esm/index.mjs",
-      "default": "./dist/cjs/index.js"
+      "import": {
+        "types": "./dist/esm/index.d.mts",
+        "default": "./dist/esm/index.mjs"
+      },
+      "require": {
+        "types": "./dist/cjs/index.d.cts",
+        "default": "./dist/cjs/index.cjs"
+      }
     }
   },
   "scripts": {
     "build": "run-p 'build:**'",
-    "build:transpile-esm": "swc ./src --config-file esm.swcrc --out-dir dist/esm --strip-leading-paths --out-file-extension mjs",
-    "build:transpile-cjs": "swc ./src --config-file cjs.swcrc --out-dir dist/cjs --strip-leading-paths",
-    "build:typecheck": "tsc -p tsconfig.json",
+    "build:cjs": "rm -rf dist/cjs && mkdir -p dist/cjs && echo '{ \"type\": \"commonjs\" }' > dist/cjs/package.json && tsc -p tsconfig.cjs.json --outDir dist/cjs",
+    "build:esm": "rm -rf dist/esm && mkdir -p dist/esm && echo '{ \"type\": \"module\" }' > dist/esm/package.json && tsc -p tsconfig.esm.json --outDir dist/esm",
     "clean": "rm -rf dist",
     "lint": "prettier --check 'src/**/*.ts'",
     "lint-fix": "prettier --write 'src/**/*.ts'",
-    "watch-esm": "swc ./src -w -s --config-file esm.swcrc --out-dir dist/esm --strip-leading-paths --out-file-extension mjs",
-    "watch-cjs": "swc ./src -w -s --config-file cjs.swcrc --out-dir dist/cjs --strip-leading-paths"
+    "watch-cjs": "run build:cjs --watch",
+    "watch-esm": "run build:esm --watch"
   },
   "dependencies": {
     "fs-extra": "^11.2.0",
@@ -42,12 +44,8 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.7",
-    "@swc/cli": "^0.4.0",
-    "@swc/core": "^1.7.5",
-    "@swc/plugin-transform-imports": "^3.0.1",
     "@types/fs-extra": "^11.0.4",
     "@types/node": "^20.10.5",
-    "chokidar": "^3.6.0",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.40",
     "prettier": "^3.3.3",
