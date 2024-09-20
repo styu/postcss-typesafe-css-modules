@@ -1,7 +1,3 @@
-/*
- * (c) Copyright 2024 Walker Burgin. All rights reserved.
- */
-
 import { LinesAndColumns, type SourceLocation } from "lines-and-columns";
 
 export class Stylesheet {

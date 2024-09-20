@@ -1,15 +1,3 @@
 {
-  "compilerOptions": {
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "ES6",
-    "moduleResolution": "node",
-    "outDir": "dist/types",
-    "strict": true,
-    "target": "esnext",
-    "verbatimModuleSyntax": true
-  },
-  "include": ["src/**/*"]
+  "extends": "./tsconfig.esm.json"
 }
