@@ -1,5 +1,11 @@
 # postcss-typesafe-css-modules
 
+## 2.0.0
+
+### Major Changes
+
+-   e5e0d96: Fix CJS/ESM dual build
+
 ## 1.0.0
 
 ### Minor Changes
