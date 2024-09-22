@@ -1,5 +1,11 @@
 # postcss-typesafe-css-modules
 
+## 2.0.1
+
+### Patch Changes
+
+-   70d21ae: Fix instructions in README
+
 ## 2.0.0
 
 ### Major Changes
