@@ -93,7 +93,7 @@ module.exports = {
     syntax: require("postcss-scss"),
     plugins: [
         require("@csstools/postcss-sass")(),
-        require("postcss-typesafe-css-modules").default,
+        require("postcss-typesafe-css-modules"),
     ],
 };
 ```
@@ -120,7 +120,7 @@ Currently this plugin has one option, forwarded to postcss-modules. See [Generat
 
 ```js
 import cssModulesPlugin from "postcss-typesafe-css-modules";
-cssModulesPlugin.default({
+cssModulesPlugin({
     generateScopedName: /* Your desired scoped name behavior */
 })
 ```
