@@ -1,5 +1,6 @@
 {
   "name": "@example/cjs",
+  "description": "Example where the package is built as an CommonJS package",
   "private": true,
   "scripts": {
     "assemble": "echo 'Done'",

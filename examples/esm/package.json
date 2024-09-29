@@ -1,5 +1,6 @@
 {
   "name": "@example/esm",
+  "description": "Example where the package is built as an ESM package",
   "private": true,
   "type": "module",
   "scripts": {
