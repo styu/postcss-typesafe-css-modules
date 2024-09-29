@@ -1,6 +1,6 @@
 {
   "name": "postcss-typesafe-css-modules-monorepo",
-  "packageManager": "yarn@4.3.1",
+  "packageManager": "yarn@4.5.0",
   "workspaces": [
     "examples/*",
     "packages/*"
