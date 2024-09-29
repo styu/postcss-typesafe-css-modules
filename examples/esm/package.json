@@ -1,6 +1,7 @@
 {
-  "name": "@example/common-js",
+  "name": "@example/esm",
   "private": true,
+  "type": "module",
   "scripts": {
     "assemble": "echo 'Done'",
     "assemble:postcss": "../../scripts/copy-files.sh build/postcss dist",
