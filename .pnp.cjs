@@ -1383,6 +1383,7 @@ const RAW_RUNTIME_STATE =
           ["postcss", "npm:8.4.45"],\
           ["postcss-preset-env", "virtual:d782fa384de3b17bfca0d598f7a0ee5c087dbc09f04e3bf18ca928a30705515e4eff6572db951ddbea51f525db76689ef5e288e0273678e14d56639db6063986#npm:10.0.5"],\
           ["postcss-typesafe-css-modules", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#workspace:packages/postcss-typesafe-css-modules"],\
+          ["prettier", "npm:3.3.3"],\
           ["typescript", "patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>::version=5.6.2&hash=8c6c40"]\
         ],\
         "linkType": "SOFT"\

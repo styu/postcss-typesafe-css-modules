@@ -805,6 +805,7 @@ __metadata:
     postcss: "npm:^8.4.40"
     postcss-preset-env: "npm:^10.0.3"
     postcss-typesafe-css-modules: "workspace:*"
+    prettier: "npm:^3.3.3"
     typescript: "npm:~5.6.2"
   languageName: unknown
   linkType: soft
