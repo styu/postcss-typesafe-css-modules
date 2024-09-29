@@ -3,12 +3,14 @@
     "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
+    "jsx": "preserve",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "module": "nodenext",
     "moduleResolution": "nodenext",
+    "outDir": "build/typescript",
     "strict": true,
     "target": "esnext",
-    "rootDir": "./src",
-    "outDir": "./dist"
+    "rootDirs": ["build/postcss", "src"]
   },
-  "include": ["src"]
+  "include": ["src/**/*"]
 }

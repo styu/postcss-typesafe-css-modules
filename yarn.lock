@@ -755,6 +755,28 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@example/esm-config@workspace:examples/esm-config":
+  version: 0.0.0-use.local
+  resolution: "@example/esm-config@workspace:examples/esm-config"
+  dependencies:
+    "@csstools/postcss-sass": "npm:^5.1.1"
+    "@example/postcss-config-mts": "workspace:*"
+    "@types/react": "npm:^18.2.61"
+    "@types/react-dom": "npm:^18.2.18"
+    chokidar-cli: "npm:^3.0.0"
+    npm-run-all: "npm:^4.1.5"
+    postcss: "npm:^8.4.40"
+    postcss-cli: "npm:^11.0.0"
+    postcss-scss: "npm:^4.0.9"
+    postcss-typesafe-css-modules: "workspace:*"
+    prettier: "npm:^3.3.3"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+    sass: "npm:^1.77.8"
+    typescript: "npm:~5.6.2"
+  languageName: unknown
+  linkType: soft
+
 "@example/esm@workspace:examples/esm":
   version: 0.0.0-use.local
   resolution: "@example/esm@workspace:examples/esm"
@@ -776,7 +798,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@example/postcss-config-mts@workspace:examples/postcss-config-mts":
+"@example/postcss-config-mts@workspace:*, @example/postcss-config-mts@workspace:examples/postcss-config-mts":
   version: 0.0.0-use.local
   resolution: "@example/postcss-config-mts@workspace:examples/postcss-config-mts"
   dependencies:

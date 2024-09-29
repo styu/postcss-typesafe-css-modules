@@ -23,6 +23,10 @@ const RAW_RUNTIME_STATE =
       "reference": "workspace:examples/esm"\
     },\
     {\
+      "name": "@example/esm-config",\
+      "reference": "workspace:examples/esm-config"\
+    },\
+    {\
       "name": "@example/postcss-config-mts",\
       "reference": "workspace:examples/postcss-config-mts"\
     },\
@@ -36,6 +40,7 @@ const RAW_RUNTIME_STATE =
   "fallbackExclusionList": [\
     ["@example/cjs", ["workspace:examples/cjs"]],\
     ["@example/esm", ["workspace:examples/esm"]],\
+    ["@example/esm-config", ["workspace:examples/esm-config"]],\
     ["@example/postcss-config-mts", ["workspace:examples/postcss-config-mts"]],\
     ["postcss-typesafe-css-modules", ["virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#workspace:packages/postcss-typesafe-css-modules", "workspace:packages/postcss-typesafe-css-modules"]],\
     ["postcss-typesafe-css-modules-monorepo", ["workspace:."]]\
@@ -1329,6 +1334,30 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@example/esm", "workspace:examples/esm"],\
           ["@csstools/postcss-sass", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:5.1.1"],\
+          ["@types/react", "npm:18.3.10"],\
+          ["@types/react-dom", "npm:18.3.0"],\
+          ["chokidar-cli", "npm:3.0.0"],\
+          ["npm-run-all", "npm:4.1.5"],\
+          ["postcss", "npm:8.4.45"],\
+          ["postcss-cli", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:11.0.0"],\
+          ["postcss-scss", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:4.0.9"],\
+          ["postcss-typesafe-css-modules", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#workspace:packages/postcss-typesafe-css-modules"],\
+          ["prettier", "npm:3.3.3"],\
+          ["react", "npm:18.3.1"],\
+          ["react-dom", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:18.3.1"],\
+          ["sass", "npm:1.79.4"],\
+          ["typescript", "patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>::version=5.6.2&hash=8c6c40"]\
+        ],\
+        "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["@example/esm-config", [\
+      ["workspace:examples/esm-config", {\
+        "packageLocation": "./examples/esm-config/",\
+        "packageDependencies": [\
+          ["@example/esm-config", "workspace:examples/esm-config"],\
+          ["@csstools/postcss-sass", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:5.1.1"],\
+          ["@example/postcss-config-mts", "workspace:examples/postcss-config-mts"],\
           ["@types/react", "npm:18.3.10"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["chokidar-cli", "npm:3.0.0"],\
