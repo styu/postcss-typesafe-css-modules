@@ -1,0 +1,37 @@
+{
+  "name": "@example/cjs",
+  "description": "Example where the package is built as an CommonJS package",
+  "private": true,
+  "scripts": {
+    "assemble": "echo 'Done'",
+    "assemble:postcss": "../../scripts/copy-files.sh build/postcss dist",
+    "assemble:typescript": "../../scripts/copy-files.sh build/typescript dist",
+    "build": "echo 'Done'",
+    "build:postcss": "postcss src/**/*.scss --base src --dir build/postcss --ext css --config .",
+    "build:typescript": "tsc -p tsconfig.json",
+    "watch-cjs": "run-p watch:postcss watch:typescript",
+    "watch:postcss": "chokidar \"src/**/*.scss\" -c \"yarn build:postcss && yarn assemble:postcss\"",
+    "watch:typescript": "tsc -w -p tsconfig.json --outDir dist",
+    "lint": "prettier --check 'src/**/*.{ts,scss}*'",
+    "lint-fix": "prettier --write 'src/**/*.{ts,scss}*'",
+    "clean": "rm -rf dist && rm -rf build && rm -rf .turbo"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@csstools/postcss-sass": "^5.1.1",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.18",
+    "chokidar-cli": "^3.0.0",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.40",
+    "postcss-cli": "^11.0.0",
+    "postcss-scss": "^4.0.9",
+    "postcss-typesafe-css-modules": "workspace:*",
+    "prettier": "^3.3.3",
+    "sass": "^1.77.8",
+    "typescript": "~5.6.2"
+  }
+}

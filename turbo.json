@@ -1,0 +1,46 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build", "assemble", "build:cjs", "build:esm"]
+    },
+    "build:cjs": {
+      "outputs": ["dist/cjs/**"]
+    },
+    "build:esm": {
+      "outputs": ["dist/esm/**"]
+    },
+    "build:typescript": {
+      "dependsOn": ["build:postcss", "^build"],
+      "outputs": ["build/typescript/**"]
+    },
+    "build:postcss": {
+      "outputs": ["build/postcss/**"],
+      "dependsOn": ["^build"]
+    },
+    "assemble": {
+      "dependsOn": ["assemble:postcss", "assemble:typescript"]
+    },
+    "assemble:postcss": {
+      "dependsOn": ["build:postcss"],
+      "outputs": ["build/postcss/**"]
+    },
+    "assemble:typescript": {
+      "dependsOn": ["build:typescript"],
+      "outputs": ["build/typescript/**"]
+    },
+    "clean": {
+      "cache": false
+    },
+    "lint": {},
+    "lint-fix": {
+      "cache": false
+    },
+    "watch-cjs": {
+      "persistent": true
+    },
+    "watch-esm": {
+      "persistent": true
+    }
+  }
+}
