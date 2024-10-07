@@ -52,7 +52,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
-          ["@changesets/cli", "npm:2.27.8"],\
+          ["@changesets/cli", "npm:2.27.9"],\
           ["prettier", "npm:3.3.3"],\
           ["turbo", "npm:1.10.16"],\
           ["typescript", "patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>::version=5.6.2&hash=8c6c40"]\
@@ -118,10 +118,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@changesets/cli", [\
-      ["npm:2.27.8", {\
-        "packageLocation": "./.yarn/cache/@changesets-cli-npm-2.27.8-e6f51a6449-e3c4443c2f.zip/node_modules/@changesets/cli/",\
+      ["npm:2.27.9", {\
+        "packageLocation": "./.yarn/cache/@changesets-cli-npm-2.27.9-5df61a909e-bcd651aa17.zip/node_modules/@changesets/cli/",\
         "packageDependencies": [\
-          ["@changesets/cli", "npm:2.27.8"],\
+          ["@changesets/cli", "npm:2.27.9"],\
           ["@changesets/apply-release-plan", "npm:7.0.5"],\
           ["@changesets/assemble-release-plan", "npm:6.0.4"],\
           ["@changesets/changelog-git", "npm:0.2.0"],\
@@ -137,14 +137,12 @@ const RAW_RUNTIME_STATE =
           ["@changesets/types", "npm:6.0.0"],\
           ["@changesets/write", "npm:0.3.2"],\
           ["@manypkg/get-packages", "npm:1.1.3"],\
-          ["@types/semver", "npm:7.5.8"],\
           ["ansi-colors", "npm:4.1.3"],\
           ["ci-info", "npm:3.9.0"],\
           ["enquirer", "npm:2.4.1"],\
           ["external-editor", "npm:3.1.0"],\
           ["fs-extra", "npm:7.0.1"],\
           ["mri", "npm:1.2.0"],\
-          ["outdent", "npm:0.5.0"],\
           ["p-limit", "npm:2.3.0"],\
           ["package-manager-detector", "npm:0.2.0"],\
           ["picocolors", "npm:1.1.0"],\
@@ -1586,15 +1584,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/react-dom", "npm:18.3.0"],\
           ["@types/react", "npm:18.3.10"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@types/semver", [\
-      ["npm:7.5.8", {\
-        "packageLocation": "./.yarn/cache/@types-semver-npm-7.5.8-26073743d7-8663ff9272.zip/node_modules/@types/semver/",\
-        "packageDependencies": [\
-          ["@types/semver", "npm:7.5.8"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5060,7 +5049,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/postcss-typesafe-css-modules-virtual-6859b64404/1/packages/postcss-typesafe-css-modules/",\
         "packageDependencies": [\
           ["postcss-typesafe-css-modules", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#workspace:packages/postcss-typesafe-css-modules"],\
-          ["@changesets/cli", "npm:2.27.8"],\
+          ["@changesets/cli", "npm:2.27.9"],\
           ["@types/fs-extra", "npm:11.0.4"],\
           ["@types/node", "npm:20.14.14"],\
           ["@types/postcss", null],\
@@ -5082,7 +5071,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./packages/postcss-typesafe-css-modules/",\
         "packageDependencies": [\
           ["postcss-typesafe-css-modules", "workspace:packages/postcss-typesafe-css-modules"],\
-          ["@changesets/cli", "npm:2.27.8"],\
+          ["@changesets/cli", "npm:2.27.9"],\
           ["@types/fs-extra", "npm:11.0.4"],\
           ["@types/node", "npm:20.14.14"],\
           ["fs-extra", "npm:11.2.0"],\
@@ -5101,7 +5090,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["postcss-typesafe-css-modules-monorepo", "workspace:."],\
-          ["@changesets/cli", "npm:2.27.8"],\
+          ["@changesets/cli", "npm:2.27.9"],\
           ["prettier", "npm:3.3.3"],\
           ["turbo", "npm:1.10.16"],\
           ["typescript", "patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>::version=5.6.2&hash=8c6c40"]\
