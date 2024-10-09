@@ -1309,7 +1309,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@example/cjs", "workspace:examples/cjs"],\
           ["@csstools/postcss-sass", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:5.1.1"],\
-          ["@types/react", "npm:18.3.10"],\
+          ["@types/react", "npm:18.3.11"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["chokidar-cli", "npm:3.0.0"],\
           ["npm-run-all", "npm:4.1.5"],\
@@ -1332,7 +1332,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@example/esm", "workspace:examples/esm"],\
           ["@csstools/postcss-sass", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:5.1.1"],\
-          ["@types/react", "npm:18.3.10"],\
+          ["@types/react", "npm:18.3.11"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["chokidar-cli", "npm:3.0.0"],\
           ["npm-run-all", "npm:4.1.5"],\
@@ -1356,7 +1356,7 @@ const RAW_RUNTIME_STATE =
           ["@example/esm-config", "workspace:examples/esm-config"],\
           ["@csstools/postcss-sass", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:5.1.1"],\
           ["@example/postcss-config-mts", "workspace:examples/postcss-config-mts"],\
-          ["@types/react", "npm:18.3.10"],\
+          ["@types/react", "npm:18.3.11"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["chokidar-cli", "npm:3.0.0"],\
           ["npm-run-all", "npm:4.1.5"],\
@@ -1572,6 +1572,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@types-react-npm-18.3.10-0635fa9573-f5be1de1b0.zip/node_modules/@types/react/",\
         "packageDependencies": [\
           ["@types/react", "npm:18.3.10"],\
+          ["@types/prop-types", "npm:15.7.13"],\
+          ["csstype", "npm:3.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:18.3.11", {\
+        "packageLocation": "./.yarn/cache/@types-react-npm-18.3.11-2511e601ef-ce80512246.zip/node_modules/@types/react/",\
+        "packageDependencies": [\
+          ["@types/react", "npm:18.3.11"],\
           ["@types/prop-types", "npm:15.7.13"],\
           ["csstype", "npm:3.1.3"]\
         ],\
@@ -5192,7 +5201,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/react-dom-virtual-d4d1b70492/0/cache/react-dom-npm-18.3.1-a805663f38-a752496c19.zip/node_modules/react-dom/",\
         "packageDependencies": [\
           ["react-dom", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:18.3.1"],\
-          ["@types/react", "npm:18.3.10"],\
+          ["@types/react", "npm:18.3.11"],\
           ["loose-envify", "npm:1.4.0"],\
           ["react", "npm:18.3.1"],\
           ["scheduler", "npm:0.23.2"]\
