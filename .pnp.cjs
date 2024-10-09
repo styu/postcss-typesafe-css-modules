@@ -481,7 +481,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/postcss-cascade-layers", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:5.0.0"],\
           ["@csstools/selector-specificity", "virtual:50c23a52869be83124fe5319ee8c094bfcb669c0604fd346407e190a03c2d9be4c69f3d9ebf081430fd58a394d4bc08f84b78837e3e8dcfbdaff775f8395ed1f#npm:4.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-selector-parser", "npm:6.1.2"]\
         ],\
         "packagePeers": [\
@@ -509,7 +509,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/postcss-progressive-custom-properties", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -536,7 +536,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/postcss-progressive-custom-properties", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -562,7 +562,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/postcss-progressive-custom-properties", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -587,7 +587,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/css-parser-algorithms", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:3.0.1"],\
           ["@csstools/css-tokenizer", "npm:3.0.1"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -610,7 +610,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/postcss-font-format-keywords", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -636,7 +636,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/css-parser-algorithms", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:3.0.1"],\
           ["@csstools/css-tokenizer", "npm:3.0.1"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -663,7 +663,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/postcss-progressive-custom-properties", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -690,7 +690,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/postcss-progressive-custom-properties", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -714,7 +714,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/postcss-progressive-custom-properties", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -737,7 +737,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@csstools/postcss-initial", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -760,7 +760,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/postcss-is-pseudo-class", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:5.0.0"],\
           ["@csstools/selector-specificity", "virtual:50c23a52869be83124fe5319ee8c094bfcb669c0604fd346407e190a03c2d9be4c69f3d9ebf081430fd58a394d4bc08f84b78837e3e8dcfbdaff775f8395ed1f#npm:4.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-selector-parser", "npm:6.1.2"]\
         ],\
         "packagePeers": [\
@@ -787,7 +787,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/postcss-progressive-custom-properties", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -809,7 +809,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@csstools/postcss-logical-float-and-clear", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:3.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -831,7 +831,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@csstools/postcss-logical-overflow", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -853,7 +853,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@csstools/postcss-logical-overscroll-behavior", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -875,7 +875,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@csstools/postcss-logical-resize", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:3.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -900,7 +900,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/css-tokenizer", "npm:3.0.1"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -926,7 +926,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/css-tokenizer", "npm:3.0.1"],\
           ["@csstools/media-query-list-parser", "virtual:1a39b87f02aca6ee050cbe1a6c86d7bff9936f0b9b51d51dc22b5d3c322a9ae241426926a136bd4d657658799c845391e7e056086d90414e9f6c1a81690ac0a0#npm:3.0.1"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -951,7 +951,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/css-tokenizer", "npm:3.0.1"],\
           ["@csstools/media-query-list-parser", "virtual:1a39b87f02aca6ee050cbe1a6c86d7bff9936f0b9b51d51dc22b5d3c322a9ae241426926a136bd4d657658799c845391e7e056086d90414e9f6c1a81690ac0a0#npm:3.0.1"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -974,7 +974,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/postcss-nested-calc", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -997,7 +997,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@csstools/postcss-normalize-display-values", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -1025,7 +1025,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/postcss-progressive-custom-properties", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -1047,7 +1047,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@csstools/postcss-progressive-custom-properties", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -1075,7 +1075,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/postcss-progressive-custom-properties", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -1098,7 +1098,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/postcss-sass", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:5.1.1"],\
           ["@csstools/sass-import-resolve", "npm:1.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["sass", "npm:1.79.4"],\
           ["source-map", "npm:0.7.4"]\
         ],\
@@ -1122,7 +1122,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@csstools/postcss-scope-pseudo-class", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-selector-parser", "npm:6.1.2"]\
         ],\
         "packagePeers": [\
@@ -1148,7 +1148,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/css-parser-algorithms", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:3.0.1"],\
           ["@csstools/css-tokenizer", "npm:3.0.1"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -1171,7 +1171,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/postcss-text-decoration-shorthand", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.1"],\
           ["@csstools/color-helpers", "npm:5.0.1"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -1197,7 +1197,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/css-parser-algorithms", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:3.0.1"],\
           ["@csstools/css-tokenizer", "npm:3.0.1"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -1219,7 +1219,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@csstools/postcss-unset-value", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -1294,7 +1294,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -1313,7 +1313,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.3.0"],\
           ["chokidar-cli", "npm:3.0.0"],\
           ["npm-run-all", "npm:4.1.5"],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-cli", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:11.0.0"],\
           ["postcss-scss", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:4.0.9"],\
           ["postcss-typesafe-css-modules", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#workspace:packages/postcss-typesafe-css-modules"],\
@@ -1336,7 +1336,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.3.0"],\
           ["chokidar-cli", "npm:3.0.0"],\
           ["npm-run-all", "npm:4.1.5"],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-cli", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:11.0.0"],\
           ["postcss-scss", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:4.0.9"],\
           ["postcss-typesafe-css-modules", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#workspace:packages/postcss-typesafe-css-modules"],\
@@ -1360,7 +1360,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react-dom", "npm:18.3.0"],\
           ["chokidar-cli", "npm:3.0.0"],\
           ["npm-run-all", "npm:4.1.5"],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-cli", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:11.0.0"],\
           ["postcss-scss", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:4.0.9"],\
           ["postcss-typesafe-css-modules", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#workspace:packages/postcss-typesafe-css-modules"],\
@@ -1378,7 +1378,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./examples/postcss-config-mts/",\
         "packageDependencies": [\
           ["@example/postcss-config-mts", "workspace:examples/postcss-config-mts"],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-preset-env", "virtual:d782fa384de3b17bfca0d598f7a0ee5c087dbc09f04e3bf18ca928a30705515e4eff6572db951ddbea51f525db76689ef5e288e0273678e14d56639db6063986#npm:10.0.5"],\
           ["postcss-typesafe-css-modules", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#workspace:packages/postcss-typesafe-css-modules"],\
           ["prettier", "npm:3.3.3"],\
@@ -1751,7 +1751,7 @@ const RAW_RUNTIME_STATE =
           ["fraction.js", "npm:4.3.7"],\
           ["normalize-range", "npm:0.1.2"],\
           ["picocolors", "npm:1.1.0"],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -2092,7 +2092,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["css-blank-pseudo", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:7.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-selector-parser", "npm:6.1.2"]\
         ],\
         "packagePeers": [\
@@ -2116,7 +2116,7 @@ const RAW_RUNTIME_STATE =
           ["css-has-pseudo", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:7.0.0"],\
           ["@csstools/selector-specificity", "virtual:50c23a52869be83124fe5319ee8c094bfcb669c0604fd346407e190a03c2d9be4c69f3d9ebf081430fd58a394d4bc08f84b78837e3e8dcfbdaff775f8395ed1f#npm:4.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-selector-parser", "npm:6.1.2"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
@@ -2140,7 +2140,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["css-prefers-color-scheme", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:10.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -3008,7 +3008,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["icss-utils", "virtual:231b8c97dc34abaadd9685fd36164f099b6a8abe9183a13c938ad089d245271e94bf30792d4afd6f5b55f88178fa0ca23f519dce6a925b8559abe5678bdd9be0#npm:5.1.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -4109,10 +4109,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["postcss", [\
-      ["npm:8.4.45", {\
-        "packageLocation": "./.yarn/cache/postcss-npm-8.4.45-c84345b3d1-ad6f8b9b11.zip/node_modules/postcss/",\
+      ["npm:8.4.47", {\
+        "packageLocation": "./.yarn/cache/postcss-npm-8.4.47-2f4d4be1fa-929f68b508.zip/node_modules/postcss/",\
         "packageDependencies": [\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["nanoid", "npm:3.3.7"],\
           ["picocolors", "npm:1.1.0"],\
           ["source-map-js", "npm:1.2.1"]\
@@ -4133,7 +4133,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-attribute-case-insensitive", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:7.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-selector-parser", "npm:6.1.2"]\
         ],\
         "packagePeers": [\
@@ -4156,7 +4156,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-clamp", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.1.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -4185,7 +4185,7 @@ const RAW_RUNTIME_STATE =
           ["get-stdin", "npm:9.0.0"],\
           ["globby", "npm:14.0.2"],\
           ["picocolors", "npm:1.1.0"],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-load-config", "virtual:e7cdb57276c857ede617d5626eb7be9ccc15224572165bcc18997dbf28d4aaa65fd1b8d5e22251f3da4033610c08660fbf33a71cac8f4db53f640ea7b699a9d1#npm:5.1.0"],\
           ["postcss-reporter", "virtual:e7cdb57276c857ede617d5626eb7be9ccc15224572165bcc18997dbf28d4aaa65fd1b8d5e22251f3da4033610c08660fbf33a71cac8f4db53f640ea7b699a9d1#npm:7.1.0"],\
           ["pretty-hrtime", "npm:1.0.3"],\
@@ -4218,7 +4218,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/postcss-progressive-custom-properties", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -4241,7 +4241,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-color-hex-alpha", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:10.0.0"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -4265,7 +4265,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-color-rebeccapurple", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:10.0.0"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -4292,7 +4292,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/css-tokenizer", "npm:3.0.1"],\
           ["@csstools/media-query-list-parser", "virtual:1a39b87f02aca6ee050cbe1a6c86d7bff9936f0b9b51d51dc22b5d3c322a9ae241426926a136bd4d657658799c845391e7e056086d90414e9f6c1a81690ac0a0#npm:3.0.1"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -4318,7 +4318,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/css-tokenizer", "npm:3.0.1"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -4344,7 +4344,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/css-parser-algorithms", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:3.0.1"],\
           ["@csstools/css-tokenizer", "npm:3.0.1"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-selector-parser", "npm:6.1.2"]\
         ],\
         "packagePeers": [\
@@ -4367,7 +4367,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-dir-pseudo-class", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:9.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-selector-parser", "npm:6.1.2"]\
         ],\
         "packagePeers": [\
@@ -4392,7 +4392,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/postcss-progressive-custom-properties", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -4415,7 +4415,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-focus-visible", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:10.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-selector-parser", "npm:6.1.2"]\
         ],\
         "packagePeers": [\
@@ -4438,7 +4438,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-focus-within", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:9.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-selector-parser", "npm:6.1.2"]\
         ],\
         "packagePeers": [\
@@ -4461,7 +4461,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-font-variant", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:5.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -4483,7 +4483,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-gap-properties", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:6.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -4506,7 +4506,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-image-set-function", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:7.0.0"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -4534,7 +4534,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/postcss-progressive-custom-properties", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@csstools/utilities", "virtual:2a51657a578ed0697e087311a38eb59984bb36e491df76222205492aae9e0d5f7dd42118c1729b218a2c4e8d39f00705f029c2b6e5edb7be95f5145e57305894#npm:2.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -4560,7 +4560,7 @@ const RAW_RUNTIME_STATE =
           ["@types/tsx", null],\
           ["jiti", null],\
           ["lilconfig", "npm:3.1.2"],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["tsx", null],\
           ["yaml", "npm:2.5.1"]\
         ],\
@@ -4588,7 +4588,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-logical", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:8.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -4614,7 +4614,7 @@ const RAW_RUNTIME_STATE =
           ["generic-names", "npm:4.0.0"],\
           ["icss-utils", "virtual:231b8c97dc34abaadd9685fd36164f099b6a8abe9183a13c938ad089d245271e94bf30792d4afd6f5b55f88178fa0ca23f519dce6a925b8559abe5678bdd9be0#npm:5.1.0"],\
           ["lodash.camelcase", "npm:4.3.0"],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-modules-extract-imports", "virtual:231b8c97dc34abaadd9685fd36164f099b6a8abe9183a13c938ad089d245271e94bf30792d4afd6f5b55f88178fa0ca23f519dce6a925b8559abe5678bdd9be0#npm:3.1.0"],\
           ["postcss-modules-local-by-default", "virtual:231b8c97dc34abaadd9685fd36164f099b6a8abe9183a13c938ad089d245271e94bf30792d4afd6f5b55f88178fa0ca23f519dce6a925b8559abe5678bdd9be0#npm:4.0.5"],\
           ["postcss-modules-scope", "virtual:231b8c97dc34abaadd9685fd36164f099b6a8abe9183a13c938ad089d245271e94bf30792d4afd6f5b55f88178fa0ca23f519dce6a925b8559abe5678bdd9be0#npm:3.2.0"],\
@@ -4641,7 +4641,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-modules-extract-imports", "virtual:231b8c97dc34abaadd9685fd36164f099b6a8abe9183a13c938ad089d245271e94bf30792d4afd6f5b55f88178fa0ca23f519dce6a925b8559abe5678bdd9be0#npm:3.1.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -4664,7 +4664,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-modules-local-by-default", "virtual:231b8c97dc34abaadd9685fd36164f099b6a8abe9183a13c938ad089d245271e94bf30792d4afd6f5b55f88178fa0ca23f519dce6a925b8559abe5678bdd9be0#npm:4.0.5"],\
           ["@types/postcss", null],\
           ["icss-utils", "virtual:231b8c97dc34abaadd9685fd36164f099b6a8abe9183a13c938ad089d245271e94bf30792d4afd6f5b55f88178fa0ca23f519dce6a925b8559abe5678bdd9be0#npm:5.1.0"],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-selector-parser", "npm:6.1.2"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
@@ -4688,7 +4688,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-modules-scope", "virtual:231b8c97dc34abaadd9685fd36164f099b6a8abe9183a13c938ad089d245271e94bf30792d4afd6f5b55f88178fa0ca23f519dce6a925b8559abe5678bdd9be0#npm:3.2.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-selector-parser", "npm:6.1.2"]\
         ],\
         "packagePeers": [\
@@ -4712,7 +4712,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-modules-values", "virtual:231b8c97dc34abaadd9685fd36164f099b6a8abe9183a13c938ad089d245271e94bf30792d4afd6f5b55f88178fa0ca23f519dce6a925b8559abe5678bdd9be0#npm:4.0.0"],\
           ["@types/postcss", null],\
           ["icss-utils", "virtual:231b8c97dc34abaadd9685fd36164f099b6a8abe9183a13c938ad089d245271e94bf30792d4afd6f5b55f88178fa0ca23f519dce6a925b8559abe5678bdd9be0#npm:5.1.0"],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -4736,7 +4736,7 @@ const RAW_RUNTIME_STATE =
           ["@csstools/selector-resolve-nested", "virtual:b34e843002781e514650f64c723286827678760e55848fd341030d1872eb6f8aa8875b04e1d2aa95f64d31fabd2b46e28ed20ff9e980f8509aba04872ec30c39#npm:2.0.0"],\
           ["@csstools/selector-specificity", "virtual:50c23a52869be83124fe5319ee8c094bfcb669c0604fd346407e190a03c2d9be4c69f3d9ebf081430fd58a394d4bc08f84b78837e3e8dcfbdaff775f8395ed1f#npm:4.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-selector-parser", "npm:6.1.2"]\
         ],\
         "packagePeers": [\
@@ -4759,7 +4759,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-opacity-percentage", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:3.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -4781,7 +4781,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-overflow-shorthand", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:6.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -4804,7 +4804,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-page-break", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:3.0.4"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -4826,7 +4826,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-place", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:10.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-value-parser", "npm:4.2.0"]\
         ],\
         "packagePeers": [\
@@ -4885,7 +4885,7 @@ const RAW_RUNTIME_STATE =
           ["css-has-pseudo", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:7.0.0"],\
           ["css-prefers-color-scheme", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:10.0.0"],\
           ["cssdb", "npm:8.1.1"],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-attribute-case-insensitive", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:7.0.0"],\
           ["postcss-clamp", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.1.0"],\
           ["postcss-color-functional-notation", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:7.0.2"],\
@@ -4932,7 +4932,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-pseudo-class-any-link", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:10.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-selector-parser", "npm:6.1.2"]\
         ],\
         "packagePeers": [\
@@ -4955,7 +4955,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-replace-overflow-wrap", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:4.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -4978,7 +4978,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-reporter", "virtual:e7cdb57276c857ede617d5626eb7be9ccc15224572165bcc18997dbf28d4aaa65fd1b8d5e22251f3da4033610c08660fbf33a71cac8f4db53f640ea7b699a9d1#npm:7.1.0"],\
           ["@types/postcss", null],\
           ["picocolors", "npm:1.1.0"],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["thenby", "npm:1.3.4"]\
         ],\
         "packagePeers": [\
@@ -5001,7 +5001,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-scss", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:4.0.9"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"]\
+          ["postcss", "npm:8.4.47"]\
         ],\
         "packagePeers": [\
           "@types/postcss",\
@@ -5023,7 +5023,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["postcss-selector-not", "virtual:f3479910facad13b4d0cec13700c8f73e34a171b31a9cfdfad51edcd528154dc1cad33d9b61517f3cfced75f5b6c294e51be6527924082e6327762e996beedb7#npm:8.0.0"],\
           ["@types/postcss", null],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-selector-parser", "npm:6.1.2"]\
         ],\
         "packagePeers": [\
@@ -5055,7 +5055,7 @@ const RAW_RUNTIME_STATE =
           ["@types/postcss", null],\
           ["fs-extra", "npm:11.2.0"],\
           ["lines-and-columns", "npm:2.0.4"],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-modules", "virtual:6859b644048f4be82e75f40f67fd3773b9ded3b256efea2997e9693075ea1d994967b147e82a37c5634dc925cb1d4aeb925818e7c5139d781c451df3389fe2d2#npm:6.0.0"],\
           ["prettier", "npm:3.3.3"],\
           ["source-map", "npm:0.7.4"],\
@@ -5076,7 +5076,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:20.14.14"],\
           ["fs-extra", "npm:11.2.0"],\
           ["lines-and-columns", "npm:2.0.4"],\
-          ["postcss", "npm:8.4.45"],\
+          ["postcss", "npm:8.4.47"],\
           ["postcss-modules", "virtual:6859b644048f4be82e75f40f67fd3773b9ded3b256efea2997e9693075ea1d994967b147e82a37c5634dc925cb1d4aeb925818e7c5139d781c451df3389fe2d2#npm:6.0.0"],\
           ["prettier", "npm:3.3.3"],\
           ["source-map", "npm:0.7.4"],\
