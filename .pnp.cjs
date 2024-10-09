@@ -1541,19 +1541,19 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:20.14.14", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-20.14.14-16135fe752-4fc8d368df.zip/node_modules/@types/node/",\
-        "packageDependencies": [\
-          ["@types/node", "npm:20.14.14"],\
-          ["undici-types", "npm:5.26.5"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:22.1.0", {\
         "packageLocation": "./.yarn/cache/@types-node-npm-22.1.0-3ca0e36ca8-553dafcb84.zip/node_modules/@types/node/",\
         "packageDependencies": [\
           ["@types/node", "npm:22.1.0"],\
           ["undici-types", "npm:6.13.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:22.7.5", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-22.7.5-0428b60a8c-cf11f74f1a.zip/node_modules/@types/node/",\
+        "packageDependencies": [\
+          ["@types/node", "npm:22.7.5"],\
+          ["undici-types", "npm:6.19.8"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5051,7 +5051,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-typesafe-css-modules", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#workspace:packages/postcss-typesafe-css-modules"],\
           ["@changesets/cli", "npm:2.27.9"],\
           ["@types/fs-extra", "npm:11.0.4"],\
-          ["@types/node", "npm:20.14.14"],\
+          ["@types/node", "npm:22.7.5"],\
           ["@types/postcss", null],\
           ["fs-extra", "npm:11.2.0"],\
           ["lines-and-columns", "npm:2.0.4"],\
@@ -5073,7 +5073,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-typesafe-css-modules", "workspace:packages/postcss-typesafe-css-modules"],\
           ["@changesets/cli", "npm:2.27.9"],\
           ["@types/fs-extra", "npm:11.0.4"],\
-          ["@types/node", "npm:20.14.14"],\
+          ["@types/node", "npm:22.7.5"],\
           ["fs-extra", "npm:11.2.0"],\
           ["lines-and-columns", "npm:2.0.4"],\
           ["postcss", "npm:8.4.45"],\
@@ -6015,17 +6015,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["undici-types", [\
-      ["npm:5.26.5", {\
-        "packageLocation": "./.yarn/cache/undici-types-npm-5.26.5-de4f7c7bb9-bb673d7876.zip/node_modules/undici-types/",\
-        "packageDependencies": [\
-          ["undici-types", "npm:5.26.5"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["npm:6.13.0", {\
         "packageLocation": "./.yarn/cache/undici-types-npm-6.13.0-3ce6ceead9-2de55181f5.zip/node_modules/undici-types/",\
         "packageDependencies": [\
           ["undici-types", "npm:6.13.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:6.19.8", {\
+        "packageLocation": "./.yarn/cache/undici-types-npm-6.19.8-9f12285b7a-078afa5990.zip/node_modules/undici-types/",\
+        "packageDependencies": [\
+          ["undici-types", "npm:6.19.8"]\
         ],\
         "linkType": "HARD"\
       }]\
