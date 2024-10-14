@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "postcss": "^8.4.40",
-    "postcss-preset-env": "^10.0.3",
+    "postcss-preset-env": "^10.0.7",
     "postcss-typesafe-css-modules": "workspace:*"
   },
   "devDependencies": {
