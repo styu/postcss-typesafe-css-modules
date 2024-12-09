@@ -737,7 +737,7 @@ __metadata:
   resolution: "@example/cjs@workspace:examples/cjs"
   dependencies:
     "@csstools/postcss-sass": "npm:^5.1.1"
-    "@types/react": "npm:^18.2.61"
+    "@types/react": "npm:^19.0.1"
     "@types/react-dom": "npm:^18.2.18"
     chokidar-cli: "npm:^3.0.0"
     npm-run-all: "npm:^4.1.5"
@@ -746,7 +746,7 @@ __metadata:
     postcss-scss: "npm:^4.0.9"
     postcss-typesafe-css-modules: "workspace:*"
     prettier: "npm:^3.3.3"
-    react: "npm:^18.3.1"
+    react: "npm:^19.0.0"
     react-dom: "npm:^18.3.1"
     sass: "npm:^1.77.8"
     typescript: "npm:~5.6.2"
@@ -759,7 +759,7 @@ __metadata:
   dependencies:
     "@csstools/postcss-sass": "npm:^5.1.1"
     "@example/postcss-config-mts": "workspace:*"
-    "@types/react": "npm:^18.2.61"
+    "@types/react": "npm:^19.0.1"
     "@types/react-dom": "npm:^18.2.18"
     chokidar-cli: "npm:^3.0.0"
     npm-run-all: "npm:^4.1.5"
@@ -768,7 +768,7 @@ __metadata:
     postcss-scss: "npm:^4.0.9"
     postcss-typesafe-css-modules: "workspace:*"
     prettier: "npm:^3.3.3"
-    react: "npm:^18.3.1"
+    react: "npm:^19.0.0"
     react-dom: "npm:^18.3.1"
     sass: "npm:^1.77.8"
     typescript: "npm:~5.6.2"
@@ -780,7 +780,7 @@ __metadata:
   resolution: "@example/esm@workspace:examples/esm"
   dependencies:
     "@csstools/postcss-sass": "npm:^5.1.1"
-    "@types/react": "npm:^18.2.61"
+    "@types/react": "npm:^19.0.1"
     "@types/react-dom": "npm:^18.2.18"
     chokidar-cli: "npm:^3.0.0"
     npm-run-all: "npm:^4.1.5"
@@ -789,7 +789,7 @@ __metadata:
     postcss-scss: "npm:^4.0.9"
     postcss-typesafe-css-modules: "workspace:*"
     prettier: "npm:^3.3.3"
-    react: "npm:^18.3.1"
+    react: "npm:^19.0.0"
     react-dom: "npm:^18.3.1"
     sass: "npm:^1.77.8"
     typescript: "npm:~5.6.2"
@@ -971,13 +971,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.2.61":
+"@types/react@npm:*":
   version: 18.3.10
   resolution: "@types/react@npm:18.3.10"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
   checksum: 10c0/f5be1de1b0331c1fdb33d577f4cf7f1b949d4bded5347b2351a537f03c51dade5be115e21b161dcf1b37061954d320f6a0bdf8d7b70e24eda51071fdd614383d
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^19.0.1":
+  version: 19.0.1
+  resolution: "@types/react@npm:19.0.1"
+  dependencies:
+    csstype: "npm:^3.0.2"
+  checksum: 10c0/25eb69114abb9a6d5fc4414ee584388275bbc9ac32976449cf58b95fe9880efe6b3f936c3842be9bed8c571546a9752e8d3e2095288381e9c809269f5f574f2e
   languageName: node
   linkType: hard
 
@@ -3822,12 +3831,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^18.3.1":
-  version: 18.3.1
-  resolution: "react@npm:18.3.1"
-  dependencies:
-    loose-envify: "npm:^1.1.0"
-  checksum: 10c0/283e8c5efcf37802c9d1ce767f302dd569dd97a70d9bb8c7be79a789b9902451e0d16334b05d73299b20f048cbc3c7d288bbbde10b701fa194e2089c237dbea3
+"react@npm:^19.0.0":
+  version: 19.0.0
+  resolution: "react@npm:19.0.0"
+  checksum: 10c0/9cad8f103e8e3a16d15cb18a0d8115d8bd9f9e1ce3420310aea381eb42aa0a4f812cf047bb5441349257a05fba8a291515691e3cb51267279b2d2c3253f38471
   languageName: node
   linkType: hard
 
