@@ -1309,7 +1309,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@example/cjs", "workspace:examples/cjs"],\
           ["@csstools/postcss-sass", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:5.1.1"],\
-          ["@types/react", "npm:18.3.10"],\
+          ["@types/react", "npm:19.0.1"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["chokidar-cli", "npm:3.0.0"],\
           ["npm-run-all", "npm:4.1.5"],\
@@ -1318,7 +1318,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-scss", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:4.0.9"],\
           ["postcss-typesafe-css-modules", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#workspace:packages/postcss-typesafe-css-modules"],\
           ["prettier", "npm:3.3.3"],\
-          ["react", "npm:18.3.1"],\
+          ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:18.3.1"],\
           ["sass", "npm:1.79.4"],\
           ["typescript", "patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>::version=5.6.2&hash=8c6c40"]\
@@ -1332,7 +1332,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@example/esm", "workspace:examples/esm"],\
           ["@csstools/postcss-sass", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:5.1.1"],\
-          ["@types/react", "npm:18.3.10"],\
+          ["@types/react", "npm:19.0.1"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["chokidar-cli", "npm:3.0.0"],\
           ["npm-run-all", "npm:4.1.5"],\
@@ -1341,7 +1341,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-scss", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:4.0.9"],\
           ["postcss-typesafe-css-modules", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#workspace:packages/postcss-typesafe-css-modules"],\
           ["prettier", "npm:3.3.3"],\
-          ["react", "npm:18.3.1"],\
+          ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:18.3.1"],\
           ["sass", "npm:1.79.4"],\
           ["typescript", "patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>::version=5.6.2&hash=8c6c40"]\
@@ -1356,7 +1356,7 @@ const RAW_RUNTIME_STATE =
           ["@example/esm-config", "workspace:examples/esm-config"],\
           ["@csstools/postcss-sass", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:5.1.1"],\
           ["@example/postcss-config-mts", "workspace:examples/postcss-config-mts"],\
-          ["@types/react", "npm:18.3.10"],\
+          ["@types/react", "npm:19.0.1"],\
           ["@types/react-dom", "npm:18.3.0"],\
           ["chokidar-cli", "npm:3.0.0"],\
           ["npm-run-all", "npm:4.1.5"],\
@@ -1365,7 +1365,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-scss", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:4.0.9"],\
           ["postcss-typesafe-css-modules", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#workspace:packages/postcss-typesafe-css-modules"],\
           ["prettier", "npm:3.3.3"],\
-          ["react", "npm:18.3.1"],\
+          ["react", "npm:19.0.0"],\
           ["react-dom", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:18.3.1"],\
           ["sass", "npm:1.79.4"],\
           ["typescript", "patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>::version=5.6.2&hash=8c6c40"]\
@@ -1573,6 +1573,14 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/react", "npm:18.3.10"],\
           ["@types/prop-types", "npm:15.7.13"],\
+          ["csstype", "npm:3.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:19.0.1", {\
+        "packageLocation": "./.yarn/cache/@types-react-npm-19.0.1-064b3e4fa9-25eb69114a.zip/node_modules/@types/react/",\
+        "packageDependencies": [\
+          ["@types/react", "npm:19.0.1"],\
           ["csstype", "npm:3.1.3"]\
         ],\
         "linkType": "HARD"\
@@ -5171,11 +5179,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["react", [\
-      ["npm:18.3.1", {\
-        "packageLocation": "./.yarn/cache/react-npm-18.3.1-af38f3c1ae-283e8c5efc.zip/node_modules/react/",\
+      ["npm:19.0.0", {\
+        "packageLocation": "./.yarn/cache/react-npm-19.0.0-e33c9aa1c0-9cad8f103e.zip/node_modules/react/",\
         "packageDependencies": [\
-          ["react", "npm:18.3.1"],\
-          ["loose-envify", "npm:1.4.0"]\
+          ["react", "npm:19.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5192,9 +5199,9 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/react-dom-virtual-d4d1b70492/0/cache/react-dom-npm-18.3.1-a805663f38-a752496c19.zip/node_modules/react-dom/",\
         "packageDependencies": [\
           ["react-dom", "virtual:72faf23a703cf0c7693820cc5ae961ac2a27f9647e5c2771017b1a3a2766c29586ed219703ef00482894baa74a05c3acdce5ad7b6d8e54c710919ec92664c79c#npm:18.3.1"],\
-          ["@types/react", "npm:18.3.10"],\
+          ["@types/react", "npm:19.0.1"],\
           ["loose-envify", "npm:1.4.0"],\
-          ["react", "npm:18.3.1"],\
+          ["react", "npm:19.0.0"],\
           ["scheduler", "npm:0.23.2"]\
         ],\
         "packagePeers": [\
